@@ -1,0 +1,14 @@
+version: "3"
+
+services:
+  nlp-using-spacy-app:
+    image: nlp-using-spacy-app:latest
+    container_name: nlp-using-spacy-app
+    build:
+      context: .
+      dockerfile: Dockerfile
+    develop:
+      watch:
+        - action: sync
+          path: ./app
+          target: /nlp-using-spacy-app/app

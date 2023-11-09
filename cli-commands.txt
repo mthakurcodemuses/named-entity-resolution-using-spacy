@@ -1,0 +1,8 @@
+pip install spacy
+python -m spacy download en_core_web_sm
+import spacy
+nlp = spacy.load('en_core_web_sm')
+nlp('John has $1000')
+dir(nlp('John has $1000'))
+nlp('John has $1000').ents
+[(e.text, e.label_) for e in nlp('John has $1000 to buy a new Apple product').ents]
