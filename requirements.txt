@@ -1,2 +1,4 @@
 spacy
 pytest
+pydantic
+google-cloud-firestore
