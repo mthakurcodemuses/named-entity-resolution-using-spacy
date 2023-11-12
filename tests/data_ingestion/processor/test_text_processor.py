@@ -1,6 +1,6 @@
 import pytest
 
-from app.processor.text_processor import TextProcessor
+from app.data_ingestion.processor import TextProcessor
 
 
 @pytest.fixture(scope='function')

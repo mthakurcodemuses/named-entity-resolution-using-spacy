@@ -1,5 +1,14 @@
-# Use the official Python 3.11 image as a base image
-FROM python:3.11-slim-buster
+# Use the official Python 3.9 image as a base image
+FROM python:3.9-slim-buster
+
+# Install system dependencies required for building certain Python packages
+# This includes the GCC compiler and other necessary tools
+RUN apt-get update && apt-get install -y \
+    build-essential \
+    libffi-dev \
+    libssl-dev \
+    python3-dev \
+    && rm -rf /var/lib/apt/lists/*
 
 # Set the environment variable PYTHONUNBUFFERED to ensure that Python output is logged
 ENV PYTHONUNBUFFERED 1
@@ -13,4 +22,16 @@ WORKDIR /nlp-using-spacy-app
 COPY . .
 
 # Install the Python packages specified in the requirements.txt file
-RUN pip install --no-cache-dir -r requirements.txt
+RUN pip install --upgrade pip -r requirements.txt
+
+# Download the en_core_web_sm spacy model
+RUN python -m spacy download en_core_web_sm
+
+# Install your module
+#RUN pip install .
+
+# Expose port to send requests to the uvicorn process
+EXPOSE 8000
+
+# Start the uvicorn server
+CMD ["uvicorn", "--port=8000", "--host=0.0.0.0", "app.data_ingestion.app_web_server:app", "--reload"]

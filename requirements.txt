@@ -2,3 +2,5 @@ spacy
 pytest
 pydantic
 google-cloud-firestore
+fastapi
+uvicorn

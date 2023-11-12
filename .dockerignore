@@ -1,3 +1,13 @@
 venv
 .idea
 .iml
+docker-compose.yml
+Dockerfile
+*.iml
+.pytest_cache
+**/*/.pytest_cache
+.gitignore
+.git
+.dockerignore
+__pycache__
+**/*/__pycache__

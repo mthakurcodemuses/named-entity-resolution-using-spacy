@@ -5,7 +5,7 @@ from multiprocessing import get_logger
 import logging
 
 
-def logger(level=logging.INFO) -> logging.Logger:
+def logger(level=logging.DEBUG) -> logging.Logger:
     log = get_logger()
     log.setLevel(level)
     handler = logging.StreamHandler()

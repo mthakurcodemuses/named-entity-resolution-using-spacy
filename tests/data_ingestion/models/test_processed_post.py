@@ -1,4 +1,4 @@
-from app.models.processed_post import ProcessedPost
+from app.data_ingestion.models.processed_post import ProcessedPost
 
 
 def test_addition_of_processed_posts():

@@ -2,8 +2,10 @@ from collections import Counter
 
 import spacy
 
-from app.utils.app_constants import EXCLUDED_ENTITIES_SPACY
-from app.utils.app_logger import app_logger as log
+from app.data_ingestion.models.post import Post
+from app.data_ingestion.models.processed_post import ProcessedPost
+from app.data_ingestion.utils.app_constants import EXCLUDED_ENTITIES_SPACY
+from app.data_ingestion.utils.app_logger import app_logger as log
 
 
 class TextProcessor:
@@ -20,9 +22,19 @@ class TextProcessor:
         :param nlp_document: an NLP document
         :return: Counter object
         """
-        entities = [entity.text for entity in spacy_document.ents if entity.label_ not in self.excluded_entities]
+        entities = [entity.text.lower() for entity in spacy_document.ents if entity.label_ not in self.excluded_entities]
         return Counter(entities)
 
     def get_entities(self, text:str):
+        log.info(f"Processing text to extract entities: {text} ")
         processed_document = self.nlp(text)
         return {"entities": self.get_entities_count(processed_document)}
+
+    def process_message(self, post: Post) -> ProcessedPost:
+        log.info("Processing Post: {post}")
+        return ProcessedPost(
+            **{
+                **post.dict(),
+                **self.get_entities(post.content)
+            }
+        )

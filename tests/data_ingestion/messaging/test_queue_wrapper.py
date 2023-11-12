@@ -1,5 +1,5 @@
 import pytest
-from app.messaging.queue_wrapper import QueueWrapper
+from app.data_ingestion.messaging.queue_wrapper import QueueWrapper
 from multiprocessing import Queue
 from unittest.mock import MagicMock
 

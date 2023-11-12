@@ -4,6 +4,7 @@ services:
   nlp-using-spacy-app:
     image: nlp-using-spacy-app:latest
     container_name: nlp-using-spacy-app
+    command: tail -f /dev/null
     build:
       context: .
       dockerfile: Dockerfile

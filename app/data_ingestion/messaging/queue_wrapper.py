@@ -1,7 +1,7 @@
 from multiprocessing import Event, Queue
 from typing import Any, List
 
-from app.utils.app_logger import app_logger as log
+from app.data_ingestion.utils.app_logger import app_logger as log
 
 
 class QueueWrapper(object):
@@ -15,7 +15,7 @@ class QueueWrapper(object):
         if self.is_drained:
             return 'STOP'
         try:
-            self.q.get()
+            return self.q.get()
         except:
             log.info("q.get() interrupted")
             return 'STOP'

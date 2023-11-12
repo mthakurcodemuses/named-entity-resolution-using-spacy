@@ -1,10 +1,10 @@
 import pytest
-from app.shutdown.shutdown_watcher import ShutdownWatcher
+from app.data_ingestion.shutdown.shutdown_watcher import ShutdownWatcher
 import os
 import time
 import sched
 import signal
-from unittest.mock import MagicMock
+
 
 @pytest.fixture
 def watcher():

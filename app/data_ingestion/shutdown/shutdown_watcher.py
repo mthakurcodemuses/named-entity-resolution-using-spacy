@@ -1,6 +1,5 @@
 import signal
 import time
-from app.utils.app_logger import app_logger as log
 
 
 class ShutdownWatcher:
