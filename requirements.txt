@@ -1,6 +1,8 @@
-spacy
+spacy==2.3.2
+spacy-lookups-data==0.3.2
+fastapi==0.60.1
+uvicorn==0.11.7
+invoke==2.2.0
 pytest
-pydantic
-google-cloud-firestore
-fastapi
-uvicorn
+pydantic==1.5.1
+google-cloud-firestore==1.7.0

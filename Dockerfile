@@ -34,4 +34,4 @@ RUN python -m spacy download en_core_web_sm
 EXPOSE 8000
 
 # Start the uvicorn server
-CMD ["uvicorn", "--port=8000", "--host=0.0.0.0", "app.data_ingestion.app_web_server:app", "--reload"]
+CMD ["uvicorn", "app.data_ingestion.app_web_server:app", "--port", "8000", "--host", "0.0.0.0", "--reload"]
