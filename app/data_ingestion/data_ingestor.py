@@ -58,8 +58,8 @@ def main():
     # Set up the shutdown handlers to gracefully shut down the processes
     register_shutdown_handlers([input_queue, output_queue], [text_worker_processes, data_persistor_worker_processes])
 
-    input_queue.put(Post(content="John has $1000 for a new Apple Product that he intends to buy", publication='me'))
-    input_queue.put(Post(content="Ben has $1000 for a new Apple Product that he intends to buy", publication='me'))
+    #input_queue.put(Post(content="John has $1000 for a new Apple Product that he intends to buy", publication='me'))
+    #input_queue.put(Post(content="Ben has $1000 for a new Apple Product that he intends to buy", publication='me'))
 
     with ShutdownWatcher() as watcher:
         watcher.serve_forever()

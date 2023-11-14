@@ -7,6 +7,10 @@ services:
     build:
       context: .
       dockerfile: Dockerfile
+    environment:
+      - MESSAGE_WRITER_PROCESS_COUNT=5
+      - MESSAGE_READER_PROCESS_COUNT=5
+      - CACHE_SIZE=10
     develop:
       watch:
         - action: sync
