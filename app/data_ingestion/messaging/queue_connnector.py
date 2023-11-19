@@ -10,9 +10,10 @@ class QueueConnector:
     """
 
     def __init__(self):
+        print("Initializing QueueConnector")
         queue_manager_handler = QueueManagerHandler()
         queue_manager_handler.register_manager(INPUT_QUEUE_NAME)
-        self.queue_manager = queue_manager_handler.create_queue_manager(5000)
+        self.queue_manager = queue_manager_handler.create_queue_manager(50000)
         self.input_queue = None
 
     def __call__(self):

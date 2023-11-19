@@ -15,4 +15,5 @@ class QueueManagerHandler:
             Binds to 127.0.0.1 on the given port
             Using localhost on at least Debian systems results in extremely slow put() class
         """
+        print("Creating QueueManager on port {}".format(port))
         return QueueManager(address=('127.0.0.1', port), authkey=b'document_ingest_queue')

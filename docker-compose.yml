@@ -3,6 +3,8 @@ version: "3"
 services:
   nlp-using-spacy-app:
     image: nlp-using-spacy-app:latest
+    ports:
+      - "8000:8000"
     container_name: nlp-using-spacy-app
     build:
       context: .

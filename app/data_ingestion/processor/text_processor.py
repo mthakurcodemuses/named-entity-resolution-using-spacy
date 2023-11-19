@@ -31,7 +31,7 @@ class TextProcessor:
         return {"entities": self.get_entities_count(processed_document)}
 
     def process_message(self, post: Post) -> ProcessedPost:
-        log.info("Processing Post: {post}")
+        log.info(f"Processing Post: {post}")
         return ProcessedPost(
             **{
                 **post.dict(),
