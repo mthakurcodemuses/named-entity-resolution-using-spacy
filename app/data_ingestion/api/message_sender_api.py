@@ -26,6 +26,6 @@ def post_message(message: Post, queue: QueueWrapper = Depends(queue_connector),
                  authenticated: bool = Depends(check_auth_header)):
     log.info(f"Received message to queue {message}")
     try:
-        queue.put(post_message)
+        queue.put(message)
     except:
         raise HTTPException(status_code=status.HTTP_500_INTERNAL_SERVER_ERROR)
