@@ -21,6 +21,9 @@ WORKDIR /nlp-using-spacy-app
 
 COPY . .
 
+# Permissions to execute the entrypoint.sh file
+RUN chmod +x entrypoint.sh
+
 # Install the Python packages specified in the requirements.txt file
 RUN pip install -r requirements.txt
 
