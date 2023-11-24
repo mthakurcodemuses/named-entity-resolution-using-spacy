@@ -5,3 +5,4 @@ python -m spacy download en_core_web_sm
 pip install .
 ingestdata --iproc_num 1 --oproc_num 1  --no_persistence --agg_cache_size 2
 uvicorn --port 8000 --host 0.0.0.0 app.data_ingestion.app_web_server:app
+gunicorn -b "0.0.0.0:8000" -w 1 -k uvicorn.workers.UvicornWorker app.data_ingestion.app_web_server:app

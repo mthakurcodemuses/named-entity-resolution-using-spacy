@@ -1,4 +1,4 @@
-#!/usr/bin/env bash
+#!/bin/bash
 
 # Start the ingest proces in the background
 ingestdata --iproc_num $MESSAGE_WRITER_PROCESS_COUNT --oproc_num $MESSAGE_READER_PROCESS_COUNT --no_persistence --agg_cache_size $CACHE_SIZE &

@@ -1,0 +1,8 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: ingest-backend-config
+data:
+  MESSAGE_WRITER_PROCESS_COUNT: "5"
+  MESSAGE_READER_PROCESS_COUNT: "5"
+  CACHE_SIZE: "10"

@@ -2,6 +2,7 @@ from collections import Counter
 
 import spacy
 
+from app.data_ingestion.models.call_transcript import CallTranscript
 from app.data_ingestion.models.post import Post
 from app.data_ingestion.models.processed_post import ProcessedPost
 from app.data_ingestion.utils.app_constants import EXCLUDED_ENTITIES_SPACY
@@ -36,5 +37,14 @@ class TextProcessor:
             **{
                 **post.dict(),
                 **self.get_entities(post.content)
+            }
+        )
+
+    def process_transcript(self, transcript: str) -> CallTranscript:
+        log.info(f"Processing Transcript: {transcript}")
+
+        return ProcessedPost(
+            **{
+                **self.get_entities(transcript)
             }
         )

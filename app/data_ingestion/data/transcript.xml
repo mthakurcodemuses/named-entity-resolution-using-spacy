@@ -1,0 +1,623 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<transcript id="2234206" product="CorrectedTranscript" xmlns="http://www.factset.com/callstreet/xmllayout/v0.1">
+  <meta>
+    <title>Q1 2019 Earnings Call</title>
+    <date>2019-04-30</date>
+    <companies>
+      <company>223</company>
+    </companies>
+    <participants>
+      <participant id="0" type="operator">Operator</participant>
+      <participant id="1" type="corprep" affiliation="General Electric Co." affiliation_entity="000KYG-E" title="Vice President, Investor Communications" entity="0771R5-E">Steven Winoker</participant>
+      <participant id="2" type="corprep" affiliation="General Electric Co." affiliation_entity="000KYG-E" title="Chairman and Chief Executive Officer" entity="05DZVW-E">H. Lawrence Culp, Jr.</participant>
+      <participant id="3" type="corprep" affiliation="General Electric Co." affiliation_entity="000KYG-E" title="Senior Vice President &amp; Chief Financial Officer" entity="005WYB-E">Jamie S. Miller</participant>
+      <participant id="4" type="analyst" affiliation="Barclays Capital, Inc." affiliation_entity="05NP41-E" title="Analyst" entity="06R67D-E">Julian Mitchell</participant>
+      <participant id="5" type="analyst" affiliation="Melius Research LLC" affiliation_entity="0HDD73-E" title="Analyst" entity="05KS0X-E">Scott Reed Davis</participant>
+      <participant id="6" type="analyst" affiliation="Vertical Research Partners LLC" affiliation_entity="09QHN9-E" title="Analyst" entity="05L9LZ-E">Jeffrey Todd Sprague</participant>
+      <participant id="7" type="analyst" affiliation="JPMorgan Securities LLC" affiliation_entity="004GJQ-E" title="Analyst" entity="05QGB8-E">Charles Stephen Tusa</participant>
+      <participant id="8" type="analyst" affiliation="Cowen and Company, LLC" affiliation_entity="0024VM-E" title="Analyst" entity="0CW4VJ-E">Gautam Khanna</participant>
+      <participant id="9" type="analyst" affiliation="RBC Capital Markets LLC" affiliation_entity="061XBV-E" title="Analyst" entity="05QN3M-E">Deane Dray</participant>
+      <participant id="10" type="analyst" affiliation="Wolfe Research LLC" affiliation_entity="077CTY-E" title="Analyst" entity="05QD4J-E">Nigel Coe</participant>
+      <participant id="11" type="analyst" affiliation="Deutsche Bank Securities, Inc." affiliation_entity="002J6J-E" title="Analyst" entity="075RQT-E">Nicole DeBlase</participant>
+      <participant id="12" type="analyst" affiliation="Citigroup Global Markets, Inc." affiliation_entity="002HNF-E" title="Analyst" entity="06QG2Z-E">Andrew Kaplowitz</participant>
+      <participant id="13" type="analyst" affiliation="Bank of America Merrill Lynch" affiliation_entity="07MDY1-E" title="Analyst" entity="05QHB2-E">Andrew Burris Obin</participant>
+      <participant id="14" type="analyst" affiliation="Credit Suisse Securities (USA) LLC" affiliation_entity="000FF4-E" title="Analyst" entity="077F79-E">John Walsh</participant>
+    </participants>
+  </meta>
+  <body>
+    <section name="MANAGEMENT DISCUSSION SECTION">
+      <speaker id="0">
+        <plist>
+          <p>Good day, ladies and gentlemen, and welcome to the General Electric's first quarter 2019 earnings conference call. At this time, all participants are in a listen-only mode. My name is Brandon, and I'll be your conference coordinator today. <mark type="Operator Instructions" /> As a reminder, this conference is being recorded.</p>
+          <p>I would now like to turn the program over to your host for today's conference, Steve Winoker, Vice President of Investor Communications. Please proceed.</p>
+        </plist>
+      </speaker>
+      <speaker id="1">
+        <plist>
+          <p>Thanks, Brandon. Good morning, all, and welcome to GE's first quarter 2019 earnings call. I'm joined by our Chairman and CEO, Larry Culp; and CFO, Jamie Miller.</p>
+          <p>Before we start, I'd like to remind you that the press release, presentation, supplemental, and 10-Q have been available since earlier today on our investor website. We're pleased to file our 10-Q in concert with our earnings, a practice we began in October with our third quarter earnings report. Please note that some of the statements we're making today are forward-looking, and are based on our best view of the world and our businesses as we see them today. As described in our SEC filings and on our website, those elements can change as the world changes.</p>
+          <p>With that, I'll hand the call over to Larry.</p>
+        </plist>
+      </speaker>
+      <speaker id="2">
+        <plist>
+          <p>Steve, thanks. Good morning, everyone, and thank you for joining us. I'll begin with an overview of our first quarter performance and an update on our strategic priorities. Jamie will cover the quarter in greater detail. And then we'll take you through segment performance, and I'll wrap up before we go to questions.</p>
+          <p>To start, as we said in March on our outlook call, 2019 is a reset year for GE as we make decisions and investments that will position us well for the long-term, but will have near term impact on our financial performance, particularly our cash flows. And while we have made some progress in the first quarter, delivering results ahead of our own expectations, especially on Industrial free cash flows. This is largely due to timing of certain orders and customer collections we expected later in the year.</p>
+          <p>You know, as well as I do, that one quarter is a data point, not a trend. The guidance we provided a month ago remains unchanged. It's early in the year and this is one quarter in a multi-year transformation. In total, we are confident in our ability to deliver on our full year expectations that we laid out for you last month during the outlook call. We continue to believe that our 2020 and 2021 financial results will be meaningfully better.</p>
+          <p>With respect to the quarter, orders were up 9% organically due to strength in Power, Aviation, and Oil &amp; Gas. Industrial revenue was up 5% organically, driven by growth in each segment, except for Power. Industrial operating margins contracted 160 basis points organically, driven by declines in Power, Renewable Energy, and Aviation. And all of this resulted in adjusted EPS of $0.14 and GAAP continuing EPS of $0.11.</p>
+          <p>Our adjusted Industrial free cash flow was a negative $1.2 billion, which was significantly better than our expectations. In Power and Aviation, orders and customer collections came through earlier than we had anticipated. While there were puts and takes, these timing items should balance out over the remainder of 2019. We had higher earnings than we expected and saw some improvements in execution, but again, it's early. I'll talk to this in more detail when I cover our strategic priorities on the next slide.</p>
+          <p>Throughout the remainder of this year, we will make significant investments in our future, such as restructuring, which will be second-half loaded. As we said on the outlook call, we have not planned for perfection, meaning we have built in general contingencies to cover potential shortfalls related to market and execution risks. However, the grounding of the Boeing 373 MAX was not included in our original planning and presents a new risk.</p>
+          <p>With respect to the MAX, first, let me express our deepest condolences to the families and friends of all those lost in the tragic accidents in Indonesia and Ethiopia. The flying public's confidence in the safety of flight is the foundation of the aviation industry and we all take that responsibility as paramount. We have a strong partnership with Boeing. We are confident in the 737 MAX aircraft. We are working closely with Boeing through the recertification process. And while the planes are on the ground, we are conducting proactive scheduled maintenance on the engines. The timing of the MAX's return to service is uncertain and we are carefully managing our own operations accordingly.</p>
+          <p>Turning to slide 3, this is a game of inches and we have a long way to go, yet we've made some progress in the first quarter on our two strategic priorities. We've taken action to improve our financial position. This includes the announcement of the sale of BioPharma to Danaher, which results in about $20 billion of cash proceeds and gives us flexibility and optionality on our remaining Healthcare business, as well as the closing of GE Transportation, which delivered $2.9 billion in cash, while retaining approximately 25% stake in Wabtec, which we intend to monetize over time beginning in the second quarter.</p>
+          <p>At GE Capital, we completed $1 billion of capital asset reductions, we paid down $2 billion of external debt, and closed the MUFG transaction in the quarter. We've ended the quarter in a strong liquidity position, with more than $30 billion of cash in Industrial and Capital combined. We still have work to do, but we are committed to running GE on a stronger financial foundation.</p>
+          <p>Our other strategic priority is strengthening the businesses, starting with Power. We're focused on running more empowered, accountable businesses that connect our operating plans to our customers' successes. The Power turnaround is in the early stages as we adjust to market realities, move past some nonoperational headwinds, and improve our daily execution. In our operating reviews, on our plant floors, and at our job sites, I see plenty of improvement opportunities and, frankly, take encouragement from the early signs of progress, such as deep assessments that are candid about where we're winning and losing, a reemergence of Lean in all that we do, and a conviction on the part of this team that we can improve and we will win.</p>
+          <p>We also booked about 4.5 gigawatts of equipment orders at Gas Power in the quarter. These orders are primarily U.S. contracts at good margins. At Aviation and Healthcare, we're playing offense and we saw continued order strength, with Aviation up 7% and Healthcare systems up 5%. At Renewable Energy, we're managing through the PTC cycle, which is creating cash headwinds at the business this year, and all the while we continue to invest for the long-term with our next-generation Offshore and Onshore Wind platforms, the Haliade-X and Cypress. And at Capital, we continue to de-risk the portfolio. We settled the DOJ FIRREA investigation of WMC for $1.5 billion and completed our insurance statutory cash flow test and the $1.9 billion funding in line with our plan.</p>
+          <p>Stepping back, GE has important, meaningful businesses operating from positions of strength. We have exceptional technology, in which we continue to invest, with a valuable installed base and recurring revenue streams. Today, our installed base of approximately 70,000 aircraft engines, 7,000 gas and aero turbines, as well as more than 4 million healthcare systems and 40,000 onshore wind turbines, all of which help drive over 50% of our revenues, which come from supporting and servicing that installed base. Our digital team continues to unlock the value of that installed base by turning machine data into powerful insights and outcomes for GE businesses and our customers.</p>
+          <p>Our backlog today stands at $374 billion, up 6% from a year ago. We have a global network of close customer relationships and a highly respected brand. Most importantly, we have a capable team showing grit, resilience, and commitment. So we made some progress in the quarter, but as I said, it's just one quarter in a multiyear journey. With better execution and a stronger balance sheet, we'll continue over time to create sustainable shareholder value.</p>
+          <p>And with that, I'll hand it over to Jamie to go through the quarter in greater detail.</p>
+        </plist>
+      </speaker>
+      <speaker id="3">
+        <plist>
+          <p>Thanks, Larry. I'll start with the first quarter summary. Note that our results on a continuing basis include Transportation and its history, which was reclassified to discontinued operations this quarter. Also, our Lighting business is now included in our Corporate results.</p>
+          <p>Orders were $26.2 billion, up 1% reported and up 9% organically, with strength in equipment orders up 11% organically, driven by Power, Healthcare, and Oil &amp; Gas. Services orders were up 7% organically, driven principally by Aviation. Revenue was down 2%, with Industrial segment revenues down 2% on a reported basis and up 5% organically, driven by Aviation, Oil &amp; Gas, and Healthcare. Both equipment and services revenues were up 5% organically.</p>
+          <p>Adjusted Industrial profit margins were 8.8% in the quarter, down 120 basis points year-over-year on a reported basis and down 160 basis points on an organic basis, driven by significant declines in Renewables, Aviation, and Power. Aviation margins were down primarily from the CFM to LEAP engine transition. Margin contraction in the first quarter was in line with our expectations, and we continue to expect Industrial margin expansion for the year.</p>
+          <p>Net earnings per share was $0.40, which includes discontinued operations for both GE Capital and Transportation. In the quarter, we recorded a $2.5 billion after-tax gain related to the sale of Transportation to Wabtec, which is included in discontinued operations. GAAP continuing EPS was $0.11 and adjusted EPS was $0.14.</p>
+          <p>I'll walk to adjusted EPS on the right-hand side of the page. Starting from GAAP continuing EPS of $0.11, we had $0.05 of gains principally from the sale of ServiceMax, as well as a gain from a favorable resolution on an NBCU tax audit, for which we had indemnified Comcast. On restructuring and other items, we incurred $0.03 of charges principally in Corporate and Power, as we continue our cost-out actions for those segments in line with our stated plans. Non-operating pension and other benefit plans were a drag of $0.05 in the quarter.</p>
+          <p>And lastly, during the quarter, final regulations on the U.S. tax reform transition tax were issued, which resulted in an update to our computation of transition tax and tax impacts for 2017 and 2018. This resulted in a $0.01 negative impact in Industrial and a $0.01 favorable impact in GE Capital, offsetting at the company level. Excluding these items, adjusted EPS was $0.14 in the quarter.</p>
+          <p>Moving to cash, as Larry mentioned, adjusted Industrial free cash flow was a usage of $1.2 billion for the quarter, but $500 million better than the prior year. Income, depreciation and amortization totaled $2.1 billion, up $300 million. As expected, working capital was negative for the quarter, as we built inventory for second half volume largely in Renewables Onshore Wind, and we saw progress collection reductions in Renewables and Gas Power as we executed on backlog.</p>
+          <p>Contract assets were a cash usage of $600 million, largely in Gas Power equipment projects. In addition, Renewables deferred inventory build was higher due to delays in Onshore Wind unit shipments. Other CFOA was negative, primarily driven by annual employee bonuses and other compensation. We also spent about $900 million in gross CapEx, or $600 million ex-Baker Hughes GE, which is down $100 million versus prior year.</p>
+          <p>Overall, we're encouraged by strong cash performance in Aviation and Power, but we continue to manage through the Renewables PTC cycle volume execution, Power variability, restructuring, long-term receivables factoring runoff, and other items.</p>
+          <p>And before we move on, let me provide more color on the quarter and the outlook for the Industrial free cash flow. First, timing was the biggest driver of our significantly better than planned cash flows this quarter. With our large equipment-focused businesses, there can be substantial variability quarter-to-quarter on factors ranging from orders timing to project execution milestones and related collections and disbursements. In the first quarter at Power and Aviation, orders and customer collections came in earlier than we expected, while disbursements were lower. We anticipate these timing items will largely balance out over the year, in line with our full-year outlook.</p>
+          <p>Second, we saw favorability in restructuring MBD this quarter, and we expect that the supply chain finance transition will begin to impact free cash flow in the second half. In addition, we saw improved execution in the quarter as our teams are working hard to drive results.</p>
+          <p>Third, looking forward, our 2019 guidance for Industrial free cash flow is unchanged, in the range of negative $2 billion to zero. We're evaluating further opportunities to derisk the balance sheet and believe that we have planned appropriately for various market and execution risks that could arise across a number of our businesses, including Renewables and Power.</p>
+          <p>As Larry noted earlier, the Boeing 737 MAX was outside the scope of our original planning. Specifically on the MAX, we have not changed our engine production plans at this time, but the timing of cash flows may be impacted by collections of receivables from Boeing, depending on when aircraft deliveries resume. We will continue to adjust our operational management as this situation evolves.</p>
+          <p>Moving to liquidity, we ended the first quarter with $17 billion of Industrial cash, excluding Baker Hughes GE. As we've discussed, Industrial free cash flow was a usage of cash, and we paid approximately $100 million in dividends. We received $2.9 billion of cash from the Transportation merger with Wabtec. Other business dispositions and transfers netted to another $200 million. All other items were a usage of $1.5 billion of cash, which principally includes free cash flow in discontinued operations for Transportation up to the close of the transaction, cash transferred with the disposition, and change in debt.</p>
+          <p>In line with our ongoing goal to reduce reliance on short-term funding, average short-term funding needs declined from $17 billion in the first quarter of 2018 to about $4 billion in the first quarter of 2019, which were funded with commercial paper and some utilization of our revolving credit facilities. We will continue to fund intra-quarter liquidity needs with a mix of commercial paper, credit facilities, and excess cash at GE Capital.</p>
+          <p>As stated, our goal is to get to about $5 billion of short-term intra-quarter funding needs while we execute our deleveraging plan. But we do expect some potentially significant fluctuation in intra-quarter short-term borrowing levels in subsequent 2019 quarters based on disposition timing, and we've planned our credit facilities accordingly. At the end of the quarter, commercial paper outstanding was $3 billion, and we had access to approximately $35 billion of committed revolving credit facilities, with zero drawn. As planned and related to the completion of our first quarter dispositions, the lines stepped down from $40 billion in the fourth quarter.</p>
+          <p>Next on Power, we saw better than expected results this quarter, largely due to timing. While we have a lot of work to do, we're making progress, and the business is in the early days of its turnaround. Orders of $4.8 billion were down 14% on a reported basis, but up 14% organically. Power portfolio orders were up 4% organically. Gas Power orders were up 24%, with equipment up 95% and services up 8%. We booked about 4.5 gigawatts of heavy-duty gas turbine orders for 11 gas turbines, including three Hs, and these orders were accretive to our backlog margins and are in geographies that present lower execution risk.</p>
+          <p>This was a strong orders quarter on the equipment front, but as we said before, this business has variability, and some of the orders that were booked this quarter were anticipated to close later in the year. We are still planning for the new gas unit market to stabilize at 25 to 30 gigawatts per year. Overall, Power backlog closed at $93 billion, up $1 billion versus the prior quarter, but down 3% year on year, with equipment of $25 billion down 4% and services of $68 billion down 3%. Gas Power represents $70 billion of total Power segment backlog.</p>
+          <p>Power revenues of $5.7 billion were down 22% reported and down 4% organically. Power portfolio revenue was down 4% organically, and Gas Power revenue was down 5%, which was slightly better performance than our expectations. We shipped seven gas turbines in the quarter versus 12 in the first quarter of last year.</p>
+          <p>Gas Power services revenue was down 5%, due in large part to the outage mix this quarter. Segment margins were 1.4% in the quarter and operating profit was $80 million, down 71% largely due to the impact of dispositions and volume.</p>
+          <p>While it is early in the Power turnaround, this was a positive start to the year, with outperformance principally driven by timing. We have no change to our outlook for the year, but we expect variability from quarter to quarter in Power. Scott, Russell, and the teams are making progress on our initiatives to improve commercial and operational performance and our cost position.</p>
+          <p>Moving to Renewable Energy, the quarter came in lower than our expectations, but we had planned for light first quarter shipments in our double-digit growth profile. Orders of $2.4 billion were up 1% reported and up 3% organically, Onshore Wind orders were flat reported, and we received our first order for the new onshore Cypress product, which will be installed in Germany later this year. GE is the only supplier with an operating prototype greater than 5 megawatts. Pricing came in at negative 1% in the quarter compared to negative 8% in 2018. We're seeing price declines continue to moderate as the industry ramps up for U.S. PTC-driven orders this year and next, and international markets normalizing after moving from feed-in tariffs to auctions.</p>
+          <p>Revenues of $1.6 billion were down 3% reported and up 3% organically. Onshore Wind sales were up 11% reported, mainly driven by equipment. Segment margins were negative 10% reported with an operating loss of $162 million, down approximately $240 million versus prior year. The decline was driven by a combination of legacy matters, including the Alstom JV consolidation, project issues and contract terminations, as well as R&amp;D investments related to the Haliade-X and Cypress platforms. Operationally, the negative pricing was more than offset by cost productivity and volume.</p>
+          <p>Renewable faces a steep production ramp, which is a challenge, but J&#xE9;r&#xF4;me and his team have solid plans in place to deliver the volume. We expect to more than double deliveries of wind turbines and repowering kits sequentially in the second quarter, and further ramp deliveries in the third and fourth quarters. This volume, mix, and leverage improvement should put renewables on track for the full-year guidance of strong double-digit revenue organic growth and margins around zero in 2019.</p>
+          <p>Next on Aviation, which had a strong start to the year. Orders of $8.7 billion were up 7% reported and organically. Equipment orders grew 3%, driven by commercial engines up 12% on strength in the GE90 and 9X. LEAP orders were down 20% versus prior year, but up versus expectations. We received orders for 636 LEAP engines in the quarter for both the Boeing and Airbus airframes. Service orders grew 10%.</p>
+          <p>Revenues of $8 billion were up 12% reported and organically. Equipment revenue grew 23% on higher commercial engines. We shipped 424 LEAP engines this quarter versus 186 in the first quarter of 2018, and we finished the first quarter on schedule with Airbus and two weeks behind schedule with Boeing, but we expect to be back on schedule in the second quarter.</p>
+          <p>CFM56 engine shipments were down 50%. Services revenue grew 6%, with the spares rate up 21%, driven by higher aircraft utilization. Segment margins of 20.9% contracted by 160 basis points reported in the quarter versus the prior year. And we experienced continued aftermarket strength and flat company-funded R&amp;D, as more of the cost transitions to external funding primarily in our military business.</p>
+          <p>As we shared at the outlook call, total engineering effort, comprising both company and customer-funded spending, continues to grow in line with top line growth, and this was more than offset by two margin drags: the CFM to LEAP transition, which was 310 basis points; and the Passport engine shipments, which were 60 basis points. Operating profit of $1.7 billion was up 4% reported and 3% organically on higher volume and improved price, partially offset by negative mix. We are on track to deliver high single-digit revenue growth and segment margins of approximately 20% in 2019.</p>
+          <p>Looking at Healthcare, orders of $4.9 billion were up 4% reported and 10% organically, driven by equipment orders up 13% organically and services up 5%. On a product line basis, Healthcare systems orders were up 5% organically. This was driven by imaging growth, up 7%, due to strong growth in premium and performance CT, and new product introductions in MR, including our air coil technology, as well as Life Care Solutions up 6% due to continued momentum on solutions-oriented deals. Life Sciences orders were up 22% organically with BioPharma up 31%.</p>
+          <p>Revenues of $4.1 billion were flat reported and up 4% organically. Healthcare Systems revenue was up 1% organically on tougher prior year comps, particularly in imaging. Life Sciences was up 5% organically, driven by BioPharma up 20% and Pharmaceutical Diagnostics up 7%. Segment margins were 16.7%, expanding 110 basis points on a reported basis.</p>
+          <p>Operating profit of $781 million was up 6% on a reported basis and 15% organically, which excludes the sale of value-based care business. Organic profit growth was driven by volume and cost productivity, partially offset by inflation, price, and program investments. Healthcare is on track to deliver its 2019 outlook, which includes BioPharma, of mid-single-digit organic revenue growth and margin expansion.</p>
+          <p>Moving onto Oil &amp; Gas, Baker Hughes GE released its financial results this morning, and Lorenzo and Brian will hold their earnings call with investors today following ours. Regarding GE Capital, continuing operations generated net income of $135 million in the quarter, which is favorable versus prior year. This was primarily due to lower excess interest costs, including the non-repeat of asset and liability management actions, the U.S. tax law change and prior year U.S. tax reform impact, higher gains and lower impairments.</p>
+          <p>We ended the quarter with $107 billion of assets excluding liquidity, down $2 billion from year end, primarily driven by Industrial Finance. We completed the sale of the GE Capital supply chain financing program to MUFG, and GE suppliers will start to transition to MUFG in the second quarter. GE Capital completed asset reductions of $1 billion in the first quarter and is on track to execute $10 billion of asset reductions in 2019 to meet the $25 billion target.</p>
+          <p>Capital finished the quarter with $15 billion of liquidity, which was flat to the fourth quarter, and $63 billion of debt, which was down by $2 billion, primarily driven by debt maturities. In the first quarter, we continued to de-risk GE Capital by finalizing the WMC settlement with the Department of Justice, making the $1.5 billion payment in April, which was in line with our reserve.</p>
+          <p>WMC filed for bankruptcy on April 23 and intends to file a Chapter 11 plan to complete an efficient and orderly resolution. We also contributed $1.9 billion for the insurance stat funding, as planned and as discussed during the investor teach-in. And consistent with the permitted practice, as we've previously discussed, we expect to fund an additional $9 billion through 2024. Our strategy at GE Capital will continue to focus on shrinking the balance sheet and achieving asset reductions of $25 billion by the end of 2019 and less than 4 times debt-to-equity ratio by 2020. As we said before, we still plan to contribute $4 billion to GE Capital in 2019.</p>
+          <p>As we look out to the second quarter, we expect lower earnings from GE Capital, driven by the semiannual preferred dividend payment, a non-repeat impact to the tax law change, and lower asset sale gains. Consistent with our outlook call, we anticipate that GE Capital will generate a continuing net loss of $500 million to $800 million in 2019, but we expect to breakeven by 2021.</p>
+          <p>At Corporate, we continue to drive decision-making back into the businesses and this cultural shift is starting to take hold. We believe these decentralized functions are ultimately run more efficiently and with greater accountability when decisions are made at the businesses. We continue to both reduce expenses and transfer activities to the segments, while fundamentally refocusing Corporate on tasks that support and enable the businesses.</p>
+          <p>Our starting point for total Corporate managed head count in mid-2018 was about 26,000. Today that number stands at about 13,000, and we still have a long way to go. More than two-thirds of that reduction to-date has come from internal transfers to the businesses, where you will see most of the benefit. And the remainder from outsourcing, restructuring, and attrition. The bottom line is that we have exited about 1,000 Corporate head count with real cost-out to-date, most of which is reflected in the segment results.</p>
+          <p>As we've said before, it's a start. Recall that our goal is to drive Corporate costs below $700 million in 2021 compared to our 2018 spend of $1.2 billion. We would expect the businesses to drive further opportunity as they are now accountable for most of these positions. In the first quarter, adjusted operating costs were $343 million, roughly flat on a sequential basis, and we're on track for our full-year outlook of $1.2 billion to $1.3 billion.</p>
+        </plist>
+      </speaker>
+      <speaker id="2">
+        <plist>
+          <p>Jamie, thanks. You'll recall that most of slide 9 was what we shared with you back on March 14 during our outlook call. We stand by our full-year guidance. And as we've discussed, much of our first quarter performance had to do with timing. The only new news on this slide is the addition of the 737 MAX is a key variable, which we are monitoring closely.</p>
+          <p>Our Industrial businesses have strong fundamentals, which gives me confidence that we can make them better cash generators. We expect free cash flow to return to positive territory next year, and accelerate thereafter in 2021 as the headwinds diminish and our operational improvements yield results. Longer term, as I've said previously, from an aspirational perspective, we should see the opportunity over time for our free cash flow margins to be at least double the mid-single-digit rate that we saw in 2018. While 2019 is a reset, it will be one of intensity, focus, and transparency with all of you. We are committed to creating value for our employees, our customers, and our shareholders.</p>
+          <p>Thanks for your continued interest in GE. With that, we'll open the line for questions.</p>
+        </plist>
+      </speaker>
+    </section>
+    <section name="Q&amp;A">
+      <speaker id="0">
+        <plist>
+          <p>Thank you. <mark type="Operator Instructions" /> And from Barclays, we have Julian Mitchell. Please go ahead.</p>
+        </plist>
+      </speaker>
+      <speaker id="4" type="q">
+        <plist>
+          <p>Thanks. Good morning.</p>
+        </plist>
+      </speaker>
+      <speaker id="2" type="a">
+        <plist>
+          <p>Good morning, Julian.</p>
+        </plist>
+      </speaker>
+      <speaker id="3" type="a">
+        <plist>
+          <p>Hi, good morning.</p>
+        </plist>
+      </speaker>
+      <speaker id="4" type="q">
+        <plist>
+          <p>Good morning. Maybe just a first question around Industrial margins. You've got the guidance for them to grow slightly in 2019. In Q1, they're obviously down a fair amount. So maybe give us some update as to how quickly you dig out from that down 160 bps. When do we start to see the margins expand year-on-year?</p>
+        </plist>
+      </speaker>
+      <speaker id="3" type="a">
+        <plist>
+          <p>Good morning, Julian. So we planned for margin contraction in the first quarter, and that's really been a combination of volume and cost productivity that over the course of the year will drive margin accretion. We saw declines in Power and Aviation and Renewables. But for the rest of the year, we've got Renewables with a significant volume ramp with positive margin. We've got Power with non-repeat charges or at least charges not at the same level in the second half, which really impacted margins last year. In Healthcare, we see continued growth. And those things really offset the Aviation mix headwinds. And as we look at it, this does ramp through the year, more in the second half, but we believe we're on track for the <mark type="ph" /> OMX (00:32:53) expansion for the year.</p>
+        </plist>
+      </speaker>
+      <speaker id="4" type="q">
+        <plist>
+          <p>Thank you very much. And then my second question just around the Industrial free cash flow. Appreciate the detail around the timing and how that swings around on a quarter-to-quarter basis. But just to clarify, if I look at the working capital plus contract assets outflow, in aggregate that was, I think, $2.5 billion in Q1. Is it fair to say that that was the maximum outflow from those items we should expect on a quarterly basis this year? Or is there some risk that because of lumpiness or what have you, that could be a larger outflow at some point in the next three quarters?</p>
+        </plist>
+      </speaker>
+      <speaker id="3" type="a">
+        <plist>
+          <p>If you look at this quarter compared to our total year plan, I would say the answer to that is yes. This is a very high-impact quarter for both. Having said that, when you look at Industrial free cash flow this quarter, it was significantly better than we expected. But as we mentioned in our comments, that was largely due to timing. And when you look at the causes of some of that timing shifting with Power and Aviation orders, which in Power drove higher progress collections in, you saw better underlying collections in services and lower project disbursements in Power as well, and you also saw some timing with respect to customer payments at Aviation accrued discounts. So when you look at that in totality, that was most of the timing impact in the quarter, and we do expect that to largely balance out over the rest of the year, so you will see that shifting.</p>
+        </plist>
+      </speaker>
+      <speaker id="0">
+        <plist>
+          <p>From Melius Research, we have Scott Davis. Please go ahead.</p>
+        </plist>
+      </speaker>
+      <speaker id="5" type="q">
+        <plist>
+          <p>Hi. Good morning.</p>
+        </plist>
+      </speaker>
+      <speaker id="3" type="a">
+        <plist>
+          <p>Good morning.</p>
+        </plist>
+      </speaker>
+      <speaker id="2" type="a">
+        <plist>
+          <p>Good morning, Scott.</p>
+        </plist>
+      </speaker>
+      <speaker id="5" type="q">
+        <plist>
+          <p>I wanted to back up, Larry, a little bit, because there's not a ton new here versus your outlook call just a month ago. But what's your sense now that you've had a chance to visit factories, each of the different businesses? Are there seeds of Lean and daily management and best practices at all that you can build on, or do you have to start from scratch?</p>
+        </plist>
+      </speaker>
+      <speaker id="2" type="a">
+        <plist>
+          <p>Scott, I've been out a good bit here of late. It's the beauty of being on the other side of outlook. I get to spend more time with the businesses. Seeds is probably the right way to frame it. Somebody shared with me as I've been poking around here a little bit that Lean in certain quarters has been a four-letter word over time. But as I've seen a number of our facilities, what I've been very impressed by is some of the legacy Lean expertise around 5S, around good flow within a line or a cell, and frankly, within a facility. But there's a lot of opportunity inside of those four walls, particularly with respect to how we integrate more broadly outside of any one site with our vendors and with our other facilities in any one of our segments.</p>
+          <p>So in fact, I'm going have a number of our Lean leaders in for a half day on Wednesday of this week to really go through a little bit more of the history, understand, get their perspective on what needs to be different this time around to really drive an approach here that teaches, motivates, but ultimately not only drives results but informs the culture. And we certainly have, I think, the business imperatives with respect to cash, and as importantly, quality and delivery for our customers to get us motivated to get after this.</p>
+          <p>So the seeds are there. We just need to water them and nurture them. I think you'll see over time and our customers will see over time a real impact. But as you know, none of that really happens overnight. That in itself is a journey, but one we're going to be on here shortly.</p>
+        </plist>
+      </speaker>
+      <speaker id="5" type="q">
+        <plist>
+          <p>And just on that topic really, Larry, if you're a GE employee, you've gotten kicked around pretty hard the last couple years. Is there a sense of stability and excitement? Are people still shopping their resumes and trying to get the hell out of there, or what's your sentence of really just stability on the people side of the organization?</p>
+        </plist>
+      </speaker>
+      <speaker id="2" type="a">
+        <plist>
+          <p>Scott, I suspect both dynamics are in play. I get a chance to go down to Pensacola, one of our key Renewable facilities here in the U.S., sent a little note out to the organization in terms of what I saw. The response I got was really encouraging in terms of just how many people appreciated not only the visit, but the observations and what it could mean more broadly. But we don't take anybody for granted. We know we still have to make sure our value proposition for our team is as robust as the one we're trying to craft for investors. So that too is a work in process.</p>
+        </plist>
+      </speaker>
+      <speaker id="0">
+        <plist>
+          <p>From Vertical Research, we have Jeff Sprague. Please go ahead.</p>
+        </plist>
+      </speaker>
+      <speaker id="6" type="q">
+        <plist>
+          <p>Thank you. Good morning, everyone.</p>
+        </plist>
+      </speaker>
+      <speaker id="3" type="a">
+        <plist>
+          <p>Good morning, Jeff.</p>
+        </plist>
+      </speaker>
+      <speaker id="2" type="a">
+        <plist>
+          <p>Hi, Jeff. Good morning.</p>
+        </plist>
+      </speaker>
+      <speaker id="1" type="a">
+        <plist>
+          <p>Good morning.</p>
+        </plist>
+      </speaker>
+      <speaker id="6" type="q">
+        <plist>
+          <p>Good morning. Hey, just again back to cash flow, if you thought about this simplistically, through Q1 you're at the midpoint of your cash flow estimate for the year. But I wonder if you are suggesting to us that Q2 cash flow is negative because of the timing issues that you're mentioning. And as part and parcel of that too, I was wondering why it would be that you'd expect maybe some spike back up from this relatively low level of intra-company revolver usage in this first quarter.</p>
+        </plist>
+      </speaker>
+      <speaker id="3" type="a">
+        <plist>
+          <p>Hi. Good morning, Jeff. So with respect to free cash flow, when I was commenting on Julian's question, I talked about the timing elements. The other piece that we expect to significantly shift throughout the year is restructuring and BD as well as the timing of our supply chain finance transition. So you've got timing reversals just in the core. You had really flat restructuring this quarter, which we expect to ramp throughout the year to a much more significant level. We had no supply chain finance impact this quarter. That really starts in second quarter and is really more of a second half loaded item.</p>
+          <p>And then we've got some watch items too. I mentioned in my comments, Renewables execution is certainly something we're watching, and Power just general variability in operations is something we're watching as well. So when you start to look at second quarter, yes, we do think second quarter will be negative. But when you really look at the cadence of these, this is obviously lumpy. And from a timing perspective, we expect most of that difference that you saw to reverse throughout the year.</p>
+          <p>Then you asked a question about intra-quarter and why that might be shifting. From an intra-quarter perspective, a lot of this depends on the timing of disposition activity. So in the first quarter, we had the Wabtec cash come in in February, which helped us in terms of normalizing that peak and that variability. And then as we look at the rest of the year, it will just depend on the timing of some of our sell-downs and how that might relate to our plan.</p>
+        </plist>
+      </speaker>
+      <speaker id="0">
+        <plist>
+          <p>And from JPMorgan, we have Steve Tusa. Please go ahead.</p>
+        </plist>
+      </speaker>
+      <speaker id="7" type="q">
+        <plist>
+          <p>Hey, guys. Good morning.</p>
+        </plist>
+      </speaker>
+      <speaker id="3" type="a">
+        <plist>
+          <p>Good morning.</p>
+        </plist>
+      </speaker>
+      <speaker id="2" type="a">
+        <plist>
+          <p>Good morning, Steve.</p>
+        </plist>
+      </speaker>
+      <speaker id="7" type="q">
+        <plist>
+          <p>Thanks a lot for all the detail. The 10-Q is very helpful. Just to follow up on Jeff's question, maybe a little bit of magnitude. I think in the prior high level was a portion the annual declines across the quarters. Obviously, first quarter didn't come out that way. Should we kind of assume...</p>
+        </plist>
+      </speaker>
+      <speaker id="2" type="a">
+        <plist>
+          <p>It was actually hard. You broke up a little.</p>
+        </plist>
+      </speaker>
+      <speaker id="3" type="a">
+        <plist>
+          <p>I think we heard you, though He was talking about the magnitude in the first quarter.</p>
+        </plist>
+      </speaker>
+      <speaker id="7" type="q">
+        <plist>
+          <p>Yeah, yeah, yeah. I think the high level, we were just assuming was basically just cut up the annual prorated &#x2013; prorate those declines over the four quarters. You obviously came in better than that in the first quarter. When we try and calibrate on the rest of the year, should we still assume, okay, there's a prorated decline in the second quarter, and then the second half is more heavily loaded? Is that the right mindset at this stage of the game?</p>
+        </plist>
+      </speaker>
+      <speaker id="3" type="a">
+        <plist>
+          <p>The way I would frame it is that we still believe we're within the range of our guidance, so negative $2 billion to zero on Industrial free cash flow. As I said before, this is lumpy. But maybe a simple way to think about it is to think about the 2018 free cash flow, think about our guide, and the difference between that. I'd really think about maybe spreading that over the next three quarters, maybe some simple math there.</p>
+        </plist>
+      </speaker>
+      <speaker id="7" type="q">
+        <plist>
+          <p>Okay, that's really helpful, then one last question just on Aviation. Do you guys &#x2013; you talked about progress payments and timing. Is there anything that you guy &#x2013; are there any kind of contractual abilities to provide discounts to customers to maybe bringing cash a little bit earlier, prepayment discounts? Is that kind of standard industry practice for you guys at various times either quarterly or over the course of the year that you can kind of time that cash flow?</p>
+        </plist>
+      </speaker>
+      <speaker id="3" type="a">
+        <plist>
+          <p>From a discounting perspective, we do see discounting across both engines and services. And typically when we contract on a deal, we will have differences in our contracts with both airframers and with customers in terms of whether it's discounting or timing of cash flow. So, yes, that can vary.</p>
+        </plist>
+      </speaker>
+      <speaker id="0">
+        <plist>
+          <p>From Cowen and Company, we have Gautam Khanna. Please go ahead.</p>
+        </plist>
+      </speaker>
+      <speaker id="8" type="q">
+        <plist>
+          <p>Yes, thank you. Just a follow-up on the last question. On the 737 MAX delivery hiatus, can you just talk a little bit about what that does in terms of quarterly cash burn for every quarter that that extends? What does that do in terms of receivables you can't collect or inventory that you have to build?</p>
+        </plist>
+      </speaker>
+      <speaker id="2" type="a">
+        <plist>
+          <p>Right. Right. I think our exposure is as you frame it and, obviously, we share that exposure with our joint venture partner, Safran. They were talking the other day about a &#x20AC;200 million exposure in the second quarter if things stay as they are. We probably have something in that same range as a headwind with respect to our own business or our own side of the JV in the second quarter.</p>
+        </plist>
+      </speaker>
+      <speaker id="8" type="q">
+        <plist>
+          <p>Okay.</p>
+        </plist>
+      </speaker>
+      <speaker id="2" type="a">
+        <plist>
+          <p>We can handle some of that. But, again, what we try to do is just make sure people understand no news, obviously. That that's a fluid situation with some uncertainties. While we have given ourselves a little bit of room with the annual guide, none of us know for certain how that's going to play out and we just wanted to flag that accordingly.</p>
+        </plist>
+      </speaker>
+      <speaker id="8" type="q">
+        <plist>
+          <p>Understood. And just to follow-up on that, if you could comment on, you guys are catching up, it sounds like, in May with the underlying 52-month rate on the LEAP-1B. If you could just talk about where you are on the cost curve of that program and when you expect to be at break even on the OE shipments? And what the opportunity is to move beyond that, profitable on the OE and when?</p>
+        </plist>
+      </speaker>
+      <speaker id="3" type="a">
+        <plist>
+          <p>Yeah. So, it's consistent with our view over the last few year, which has been breakeven in 2021. We do expect &#x2013; it ranges depending on the LEAP-1A or LEAP-1B, more than 10% cost-out this year on the engine. And if you remember, since the end of 2016 already we've taken out more than 40%. So good path here, but breakeven in 2021.</p>
+        </plist>
+      </speaker>
+      <speaker id="0">
+        <plist>
+          <p>From RBC Capital, we have Deane Dray. Please go ahead.</p>
+        </plist>
+      </speaker>
+      <speaker id="9" type="q">
+        <plist>
+          <p>Thank you. Good morning, everyone.</p>
+        </plist>
+      </speaker>
+      <speaker id="2" type="a">
+        <plist>
+          <p>Hey, Deane. Good morning.</p>
+        </plist>
+      </speaker>
+      <speaker id="1" type="a">
+        <plist>
+          <p>Hey, Deane.</p>
+        </plist>
+      </speaker>
+      <speaker id="9" type="q">
+        <plist>
+          <p>Hey, Larry, you commented on the Healthcare business, the RemainCo Healthcare business, you've got flexibility and optionality. Maybe give us update there. We know the IPO is on hold, but could you share with us any updated thinking?</p>
+        </plist>
+      </speaker>
+      <speaker id="2" type="a">
+        <plist>
+          <p>Well, I would just say, we don't think of it as RemainCo. Obviously, the BioPharma business is a wonderful franchise and will be in, what I believe, to be good hands on the other side of the sale. But our go-forward Healthcare business is an exceptionally strong franchise. I think you see that in the first quarter print. But I think, more importantly, we sit really at the heart of precision health. That gives us organic optionality, let alone inorganic optionality.</p>
+          <p>As we get into our operating reviews, I'm really encouraged by what I see both in terms of performance around our KPIs operationally and commercially, but frankly, with Kieran and company our framing as some of our improvement potential. I've been to two of their sites back to what Scott was poking at. Frankly, a lot of opportunity for Lean in those businesses, particularly with respect to quality and delivery-oriented improvements. So we're excited about that business as part of GE and we'll play it forward in the way that best serves our customers and shareholders. So stay tuned.</p>
+        </plist>
+      </speaker>
+      <speaker id="9" type="q">
+        <plist>
+          <p>Got it. And then just a separate topic, and I'm really not used to asking you about contingency in a forecast or guidance for the year, but we know there is contingency built in. You suggested in your remarks that the 737 has eaten into that a bit. But maybe you can frame for us &#x2013; I'm not sure how quantitative, but just qualitatively, where contingency is in terms of your framework for the year.</p>
+        </plist>
+      </speaker>
+      <speaker id="2" type="a">
+        <plist>
+          <p>I think that we probably will refrain from trying to quantify the size of the contingency just to keep it as a contingency, right? But we're encouraged by the start to the year, Deane, on cash. Again, given that we've got a fair bit of positive timing effects here, it will balance out. We can safely conclude our contingency is effectively in hand. A little bit of pressure here, as highlighted, given what we know here in the second quarter around MAX. We'll see how the second half plays out. We don't have all of that baked in, but we don't want to necessarily bring excuses forward. We want to deliver results and that's the mindset that we've got here.</p>
+        </plist>
+      </speaker>
+      <speaker id="0">
+        <plist>
+          <p>From Wolfe Research, we have Nigel Coe. Please go ahead.</p>
+        </plist>
+      </speaker>
+      <speaker id="10" type="q">
+        <plist>
+          <p>Good morning.</p>
+        </plist>
+      </speaker>
+      <speaker id="3" type="a">
+        <plist>
+          <p>Good morning, Nigel.</p>
+        </plist>
+      </speaker>
+      <speaker id="2" type="a">
+        <plist>
+          <p>Good morning.</p>
+        </plist>
+      </speaker>
+      <speaker id="1" type="a">
+        <plist>
+          <p>Hey, Nigel.</p>
+        </plist>
+      </speaker>
+      <speaker id="10" type="q">
+        <plist>
+          <p>Yeah, I venture to maybe dial back the &#x2013; bit more detail on the Power services performance during the quarter, I'd be particularly interested how the transactional business is faring.</p>
+        </plist>
+      </speaker>
+      <speaker id="2" type="a">
+        <plist>
+          <p>Sure, Nigel. Let me give a little bit of color there. I think if we look at orders, we were encouraged, though not satisfied. The order book was up slightly. Revenues were down. And that was largely a function of mix. Good underlying volume, but frankly, some of the higher price point outages were down year-on-year. Good bit of noise in the margins there. But when I look at it operationally, we were up slightly. So I think Scott and company would say, some progress. A long way to go here both with respect to the top line and delivering on the improved pricing we're seeing in that order book, right? It's one thing to write that order with better pricing. We need to execute on it to see that really play out in the margins. But a decent start, I'd say, to 2019.</p>
+        </plist>
+      </speaker>
+      <speaker id="10" type="q">
+        <plist>
+          <p>Okay, great. And then, Larry, your comments on the free cash margin doubling, I think you said more than double, obviously no timeline on that. But for most of the people buying your stock today have a three to five-year horizon. How aspirational is that margin target, high single digits margin? Do you see that as &#x2013; I wouldn't say a line of sight, but do you think that's feasible target within a three to four-year time horizon?</p>
+        </plist>
+      </speaker>
+      <speaker id="2" type="a">
+        <plist>
+          <p>I would say, Nigel, if we put a three-year timetable on it, it would no longer be aspirational, right? It would be a midterm outlook. But I think &#x2013; I just see strong performance in a number of parts of the company, but also the signs that cash has not always been a priority. Part of what, I think, we're seeing in Power and part of what we're working on elsewhere is to make sure that when we go cut deals to drive and fill the order book, that we're thinking about the cash over the lifecycle of that order, right, because we want to get paid and we'd like to get paid sooner rather than later. We've talked a little bit about Lean. I don't want to make this a teaching on Lean, but there are a lot of opportunities to improve our free cash flow as that becomes more a part of our fabric. And that will have positive impact, I think, for customers as well as it will for us.</p>
+          <p>When you get into the real flow in the supply chain, there are opportunities, particularly as we deal with our vendors and with each other in a more integrated pull-oriented way. I was at a facility recently asking about Kanban. Somebody said, what's that? You can take that two different ways. I took that as a good thing. That's an opportunity to drive more pull, more flow in the facility. But first things first, right? We need to deliver on what we said back in March relative to this year. Nobody's proud of the fact that cash flow number's probably going to have parentheses around it. But it is what it is. Next year, we need to walk in with line of sight on positive free cash, and then a significant uptick in 2021. So I think for today, we'll keep the aspirations aspirational, and maybe with little bit more progress we can dial that in a little bit more tightly.</p>
+        </plist>
+      </speaker>
+      <speaker id="0">
+        <plist>
+          <p>Okay. From Deutsche Bank, we have Nicole DeBlase. Please go ahead.</p>
+        </plist>
+      </speaker>
+      <speaker id="11" type="q">
+        <plist>
+          <p>Thanks. Good morning.</p>
+        </plist>
+      </speaker>
+      <speaker id="3" type="a">
+        <plist>
+          <p>Good morning.</p>
+        </plist>
+      </speaker>
+      <speaker id="2" type="a">
+        <plist>
+          <p>Hey, Nicole.</p>
+        </plist>
+      </speaker>
+      <speaker id="1" type="a">
+        <plist>
+          <p>Hey, Nicole</p>
+        </plist>
+      </speaker>
+      <speaker id="11" type="q">
+        <plist>
+          <p>Hey. So I'm going to apologize, because I was on another call, so if these have been answered or if you guys answered them in the prepared remarks...</p>
+        </plist>
+      </speaker>
+      <speaker id="2" type="a">
+        <plist>
+          <p>Another call?</p>
+        </plist>
+      </speaker>
+      <speaker id="11" type="q">
+        <plist>
+          <p>...sorry about that. I know. Sorry, it's such a busy day. So, the first question just around the Renewables business. Just margins came in a bit weaker than we had expected. I know this is a tough year for Renewables. But if you could talk a little bit about like the trajectory from here, if 1Q is reflective of the full year.</p>
+        </plist>
+      </speaker>
+      <speaker id="3" type="a">
+        <plist>
+          <p>Good morning, Nicole. So Renewables, we were encouraged by orders. We were encouraged by pricing really stabilizing, but they did have a tougher quarter. While megawatt volume was up 13% year-over-year, we did see some volume slippages in the quarter. Pricing impact was small, as we talked about, but we had strong product cost control, which was really good. Our challenge here is that we got a couple of things really impacting year-over-year, and then we do expect margin accretion throughout the year.</p>
+          <p>So year-over-year, we have the impact from the consolidation of the Alstom JV. We had some project execution issues, some in Offshore and Hydro. We had a non-repeat from first quarter of 2018, so that's some favorability. We also had an Offshore contract termination that was favorable in the quarter, so net-net that was a negative. We have higher R&amp;D, higher depreciation, and China tariffs that are affecting us operationally, and we've got lower PPA amortization or purchase price amortization. So year-over-year you see that impacting our margin.</p>
+          <p>Having said that, we've got a very steep volume ramp, as we talked about, this year. So for the year, more than doubling in the second quarter, with an even more significant ramp in the third and fourth quarter. Good margin backlog, so that's good. You'll still see R&amp;D being up, it'll be up 9% year-over-year. And I think you'll see more moderation in how we're managing our legacy projects. Some of this noise is us just continuing to burn off some of that older book in Renewables. So, hopefully, that gives you a little bit of color.</p>
+        </plist>
+      </speaker>
+      <speaker id="11" type="q">
+        <plist>
+          <p>That's super helpful, Jamie. Thanks. And then kind of a similar question on Capital. A little bit better in the first quarter. What drove that relative to the guidance for $500 million to $800 million loss in the full year? And, I guess, what's the cadence from here throughout the rest of 2019?</p>
+        </plist>
+      </speaker>
+      <speaker id="3" type="a">
+        <plist>
+          <p>So Capital did come in well above plan and a couple of bigger items that drove that, which were lumpy. First is the impact of the tax law change in the quarter was about $100 million. The second, we did have asset sales in GECAS totaling $86 million of gain. And both of those, I would characterize as either one-off or timing in terms of just when they might occur. We sold the supply chain finance business to MUFG as well in the quarter. That was $25 million, and we had some other Capital corporate favorability.</p>
+          <p>But bottom line is when you look at the cadence, so first of all, this was an unusually high quarter for us. We do continue to expect a negative $500 and negative $800 million for the year. Remember that our preferred dividend hits us in the second quarter and in the fourth quarter, so that's a sizable negative. And then we will have other asset sale impacts throughout the year, which again are going be lumpy.</p>
+        </plist>
+      </speaker>
+      <speaker id="0">
+        <plist>
+          <p>From Citi, we have Andrew Kaplowitz. Please go ahead.</p>
+        </plist>
+      </speaker>
+      <speaker id="12" type="q">
+        <plist>
+          <p>Hey. Good morning, guys.</p>
+        </plist>
+      </speaker>
+      <speaker id="3" type="a">
+        <plist>
+          <p>Good morning.</p>
+        </plist>
+      </speaker>
+      <speaker id="2" type="a">
+        <plist>
+          <p>Andrew, good morning.</p>
+        </plist>
+      </speaker>
+      <speaker id="12" type="q">
+        <plist>
+          <p>Larry, just focusing on the $3 billion Gas Power equipment business, you mentioned in the 2019 outlook call that that was one of your key focus areas for improvement in terms of profitability. And today you mentioned that the 4.5 gigawatts of orders were at higher margin and lower risk. Can you give us more color what lower risk means? And do you think any of the improvement in orders was actually the result of a better U.S. market?</p>
+        </plist>
+      </speaker>
+      <speaker id="2" type="a">
+        <plist>
+          <p>I think that all of that comes together, right, to see the three H orders that we got in first quarter, we got a couple more here in April, really suggests the U.S. market, which we thought would be better than I think some allowed, came in at the start of the year better than we had anticipated. It looks like our share position will be somewhere in the 40% range when that comes out. So I think by and large, again, we don't want to get too excited. Those orders we were aiming to get, we just got them earlier, but that's all good. And because it's a U.S.-based order book on balance, that is part of what we're referring to in terms of the risk.</p>
+          <p>But I just want to highlight that in the org structure that we've put in place in Gas Power, where we're running with, if you will, less orders within the business, the regions really are more integrated. And we're trying to drive process so that we are more mindful about the margin and the degree of difficulty, which translates into risk, around any of these projects, whether they're close to Schenectady or a long way from home.</p>
+          <p>So that too is not something that happens overnight. But I think given what we've seen here at the beginning of the year, we're encouraged by that. And as we go through our monthly operating reviews with Scott and the team, as we get into some of the process improvements, the Lean activity, both with respect to how we write these deals and execute on the projects, let alone the service side with the outages, I think you'll see better execution over time.</p>
+        </plist>
+      </speaker>
+      <speaker id="12" type="q">
+        <plist>
+          <p>And, Larry, related to that, you've obviously been trying to fix your execution issues in Power. So while we know a lot of the cash performance was timing related, did your execution-related Power cash drag begin to improve? And what's the probability that Power cash is actually not worse than the $2.7 billion outflow in 2018?</p>
+        </plist>
+      </speaker>
+      <speaker id="2" type="a">
+        <plist>
+          <p>I'm not sure we would really point to too many high-impact material process improvements in terms of capital or at least working capital at this point. But that said, there's a lot that we still want to do from a restructuring perspective. I think that's why, despite their start to the year, which was far better than we had anticipated, we're hanging on to the full-year guidance, because we want to make sure we not only give ourselves the latitude to do all that we can to adjust the cost structure here, I don't want anyone to think that this is a risk-free segment for us at this point because we got off to a good start in a few places.</p>
+        </plist>
+      </speaker>
+      <speaker id="3" type="a">
+        <plist>
+          <p>And I would say we're monitoring things operationally. I mentioned before that we do expect continued variability in Power throughout the year. In the quarter, free cash flow for Power was negative. It was significantly better than we expected. But for the year, we continue to expect it to be significantly negative. So hopefully, that's a little color.</p>
+        </plist>
+      </speaker>
+      <speaker id="0">
+        <plist>
+          <p>From Bank of America, we have Andrew Obin. Please go ahead.</p>
+        </plist>
+      </speaker>
+      <speaker id="13" type="q">
+        <plist>
+          <p>Yes, good morning. Can you hear me?</p>
+        </plist>
+      </speaker>
+      <speaker id="3" type="a">
+        <plist>
+          <p>Good morning.</p>
+        </plist>
+      </speaker>
+      <speaker id="2" type="a">
+        <plist>
+          <p>Good morning, Andrew.</p>
+        </plist>
+      </speaker>
+      <speaker id="13" type="q">
+        <plist>
+          <p>Yeah, just a question just to follow up on Power orders. We've been tracking U.S. utilities CapEx. And it seems to be going up, and I was thinking a lot of it had to do with pipeline, frankly. But are you seeing any positive trends on maintenance as well as you talk to customers?</p>
+        </plist>
+      </speaker>
+      <speaker id="2" type="a">
+        <plist>
+          <p>I'm sorry, Andrew, on?</p>
+        </plist>
+      </speaker>
+      <speaker id="13" type="q">
+        <plist>
+          <p>Utility, U.S. utilities CapEx just trending positively. Beyond orders for new Gas Power, are you seeing more spending on maintenance out of the U.S. utilities?</p>
+        </plist>
+      </speaker>
+      <speaker id="2" type="a">
+        <plist>
+          <p>I wouldn't say that we've seen anything material in terms of the underlying budget scopes that we see on balance with our domestic customers. For us, it's really about execution on the CSA side of the service book, and just executing better, as we alluded to earlier, on the transaction side, not only in terms of our customer outreach visibility still, I think, south of 90% today, getting a little bit better each quarter, let alone our share. I know that's a high priority for Scott as he walks into the second quarter.</p>
+        </plist>
+      </speaker>
+      <speaker id="13" type="q">
+        <plist>
+          <p>And just a follow-up question, so I think Kevin Cox has been there now almost, like, maybe a month and a half. But what structural changes, if any, are you implementing under him, any new approaches how you manage people inside the company? Thank you.</p>
+        </plist>
+      </speaker>
+      <speaker id="2" type="a">
+        <plist>
+          <p>Kevin will be thrilled to know that you were asking about this. For those that don't know Kevin, Kevin Cox is our new Senior Vice President for Human Resources, direct report to me. Kevin, top HR executive in his field, he came to us from American Express, grew up at Pepsi. Seen a lot of change. Seen a lot of challenge. We're thrilled to have him. He's still, I think, inside his 100-day tour of the company. So what we try to do with new people is give them as much time to get their bearings, so Kevin hasn't laid out his answer to this question necessarily to the internal team, let alone the board. He's on the June meeting docket. So I'll just not get into too much detail other than to allude to some of these cultural dynamics that we highlighted in our prepared remarks.</p>
+          <p>There's a lot that we can do in terms of our formal processes and systems to drive the cultural change that we aspire to. And one of the reasons I wanted Kevin here on this team is he has done that and is very keen to be a part of that here at GE. So somebody we're excited to have on the team and we'll certainly make sure that as time progresses, we give investors exposure to Kevin in what we're doing on, if you will, the softer side of the transformation here.</p>
+        </plist>
+      </speaker>
+      <speaker id="0">
+        <plist>
+          <p>And from Credit Cuisse, we have John Walsh. Please go ahead.</p>
+        </plist>
+      </speaker>
+      <speaker id="14" type="q">
+        <plist>
+          <p>Hi. Good morning.</p>
+        </plist>
+      </speaker>
+      <speaker id="3" type="a">
+        <plist>
+          <p>Good morning.</p>
+        </plist>
+      </speaker>
+      <speaker id="2" type="a">
+        <plist>
+          <p>Good morning, John.</p>
+        </plist>
+      </speaker>
+      <speaker id="14" type="q">
+        <plist>
+          <p>So just a question here and a follow-up. So I guess thinking about the margin progression here, talking about the second half being better, how much of that's really driven by your internal initiatives, whether it's restructuring and the Power HQ, versus assuming we get a better macro here in the second half?</p>
+          <p>And then as a follow-up to that, just you talked about absolute pricing in Renewables in the script. Just wonder if you could give some color around absolute pricing in Power and Healthcare and the other parts of the portfolio?</p>
+        </plist>
+      </speaker>
+      <speaker id="3" type="a">
+        <plist>
+          <p>So, in terms of margin projection over the balance of the year, I would say we look at that, as all things that we see, we've tried to set a very realistic plan based on things we see and can control. And in terms of the broader macro market, I'll let Larry comment on that, but roughly in line with where we see it today is how we planned.</p>
+        </plist>
+      </speaker>
+      <speaker id="2" type="a">
+        <plist>
+          <p>I don't think we've made any macro call here with respect to the guide in March, let alone the confirmation here today. If anything, from a macro perspective, clearly, we've got the PTC dynamic in Renewables, but otherwise we're really assuming more of a steady state in our served markets. Obviously, passenger miles is a strong indicator for us in Aviation. That looks good. Power is in its own cycle. Healthcare tends to be somewhat resilient as well. So, I really can't think of anything other than PTC in terms of sequential external lift that we're going to get.</p>
+        </plist>
+      </speaker>
+      <speaker id="3" type="a">
+        <plist>
+          <p>And then just commenting on your pricing question. So pricing this quarter was flat across the company. We saw slight positives at Aviation; slight negatives, as per usual, at Healthcare. In Power, basically flat. Larry talked before about equipment orders in the quarter were margin accretive to backlog.</p>
+          <p>In addition to the comments he made, I would also just add that the underwriting framework that has been implemented there, I think, has been very helpful as well. More focus on risk-adjusted cash returns and margins; no longer comping on share. Just a more balanced risk/return framework there. But flat at Power. And then we talked about Renewables being slightly negative. We do see it moderating both as PTC demand is driving price moderation, but also just as you're seeing more price stability in the non-U.S. auctions.</p>
+        </plist>
+      </speaker>
+      <speaker id="0">
+        <plist>
+          <p>Thank you. We have no further questions at this time. Mr. Winoker, do you have additional remarks?</p>
+        </plist>
+      </speaker>
+      <speaker id="1">
+        <plist>
+          <p>I just want to thank everybody for joining us. I know we're over our time. If, for whatever reason, we didn't get to you, in any case the team and I will be available through the week to help further. Thanks, everybody. See you next time.</p>
+        </plist>
+      </speaker>
+      <speaker id="0">
+        <plist>
+          <p>Thank you. Ladies and gentlemen, this concludes today's conference. Thank you for joining. You may now disconnect.</p>
+        </plist>
+      </speaker>
+    </section>
+  </body>
+</transcript>
