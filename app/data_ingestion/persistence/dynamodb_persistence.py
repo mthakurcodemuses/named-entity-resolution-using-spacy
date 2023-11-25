@@ -1,26 +1,31 @@
 import boto3
 from botocore.exceptions import ClientError
 
+from app.data_ingestion.models.call_transcript import CallTranscript
 from app.data_ingestion.utils.app_logger import app_logger as log
 
-session = boto3.Session()
-dynamodb = session.resource("dynamodb")
-table_name = os.getenv("CALL_TRANSCRIPTS_TABLE_NAME", "call_transcript")
-table = dynamodb.Table(table_name)
 
-def persist(call_transripts: [CallTranscript]):
-    try:
-        with table.batch_writer() as writer:
-            for call_transript in call_transripts:
-                writer.put_item(Item=call_transript)
-    except ClientError as err:
-        logger.error(
-            "Couldn't save call transcript into table %s. Here's why: %s: %s",
-            table.name,
-            err.response["Error"]["Code"],
-            err.response["Error"]["Message"],
-        )
-        raise
+class CallTranscriptsDynamoDBPersistence:
 
-def persist_no_op(*args, **kwargs):
-    pass
+    def __init__(self):
+        session = boto3.Session()
+        dynamodb = session.resource("dynamodb")
+        self.table = dynamodb.Table("call_transcript")
+
+    def persist(self, call_transcripts: [CallTranscript]):
+        try:
+            log.info(f"Saving {len(call_transcripts)} call transcripts into table %s", self.table.name)
+            with self.table.batch_writer() as writer:
+                for call_transcript in call_transcripts:
+                    writer.put_item(Item=call_transcript)
+        except ClientError as err:
+            log.error(
+                "Couldn't save call transcript into table %s. Here's why: %s: %s",
+                self.table.name,
+                err.response["Error"]["Code"],
+                err.response["Error"]["Message"],
+            )
+            raise
+
+    def persist_no_op(self, *args, **kwargs):
+        pass

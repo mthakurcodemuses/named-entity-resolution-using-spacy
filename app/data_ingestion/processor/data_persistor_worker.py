@@ -12,11 +12,11 @@ class DataPersistorWorker(Process):
     and persisting it to the database
     """
 
-    def __init__(self, queue: QueueWrapper, db_client, persistence_fn):
-        assert callable(persistence_fn)
+    def __init__(self, queue: QueueWrapper, db_client, persistence_fn_name):
+        assert callable(persistence_fn_name)
         self.queue = queue
         self.db_client = db_client
-        self.persistence_fn = persistence_fn
+        self.persistence_fn = persistence_fn_name
         super(DataPersistorWorker, self).__init__()
 
     def shutdown(self, *args):
@@ -27,5 +27,8 @@ class DataPersistorWorker(Process):
         signal.signal(signal.SIGTERM, self.shutdown)
         for msg in iter(self.queue.get, 'STOP'):
             log.info(f"Saving extracted entities in the database for message: {msg}")
-            self.persistence_fn(self.db_client, *msg)
+            persistence_fn = getattr(self.db_client, self.persistence_fn)
+            log.info(f"Persistence Function: {persistence_fn}")
+            persistence_fn(*msg)
+            self.db_client.persist(*msg)
         exit(0)

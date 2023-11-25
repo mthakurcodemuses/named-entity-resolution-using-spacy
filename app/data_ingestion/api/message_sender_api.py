@@ -1,9 +1,8 @@
-from fastapi import Security, Depends, status, HTTPException, APIRouter
+from fastapi import Security, Depends, status, HTTPException, APIRouter, UploadFile, File
 from fastapi.security import APIKeyHeader
 
 from app.data_ingestion.messaging.queue_connnector import QueueConnector
 from app.data_ingestion.messaging.queue_wrapper import QueueWrapper
-from app.data_ingestion.models.post import Post
 from app.data_ingestion.utils.app_logger import app_logger as log
 
 # Use an access token to secure the post/message uri
@@ -21,11 +20,12 @@ def check_auth_header(api_key_header: str = Security(API_KEY_HEADER)):
     )
 
 
-@message_sender_router.post("/post/message", status_code=status.HTTP_201_CREATED)
-def post_message(message: Post, queue: QueueWrapper = Depends(queue_connector),
+@message_sender_router.post("/upload-transcript", status_code=status.HTTP_201_CREATED)
+async def post_message(transcript_file: UploadFile = File(...), queue: QueueWrapper = Depends(queue_connector),
                  authenticated: bool = Depends(check_auth_header)):
-    log.info(f"Received message to queue {message}")
+    log.info(f"Received transcript to queue {transcript_file.filename}")
     try:
-        queue.put(message)
+        transcript_file_content = await transcript_file.read()
+        queue.put(transcript_file_content)
     except:
         raise HTTPException(status_code=status.HTTP_500_INTERNAL_SERVER_ERROR)

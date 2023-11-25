@@ -3,8 +3,7 @@ import os
 
 from app.data_ingestion.messaging.queue_manager_handler import QueueManagerHandler
 from app.data_ingestion.messaging.queue_wrapper import QueueWrapper
-from app.data_ingestion.models.post import Post
-from app.data_ingestion.persistence.firestore_persistence import persist_no_op, get_database_client, persist
+from app.data_ingestion.persistence.dynamodb_persistence import CallTranscriptsDynamoDBPersistence
 from app.data_ingestion.processor.data_persistor_worker import DataPersistorWorker
 from app.data_ingestion.processor.text_processor_worker import TextProcessorWorker
 from app.data_ingestion.processor.worker_process_manager import register_shutdown_handlers
@@ -36,9 +35,9 @@ def main():
     # A tuple containing the db client and method for persisting message
     # For testing, the no_persistence flag allows us to use a null client with a no op function.
     if args.no_persistence:
-        persistable = (None, persist_no_op)
+        persistable = (None, 'persist_no_op')
     else:
-        persistable = (get_database_client(), persist)
+        persistable = (CallTranscriptsDynamoDBPersistence(), 'persist')
 
     # Setup the input and output queues
     input_queue = QueueWrapper(name=INPUT_QUEUE_NAME)

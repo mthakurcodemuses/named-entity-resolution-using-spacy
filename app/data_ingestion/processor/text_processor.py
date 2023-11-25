@@ -3,10 +3,10 @@ from collections import Counter
 import spacy
 
 from app.data_ingestion.models.call_transcript import CallTranscript
-from app.data_ingestion.models.post import Post
 from app.data_ingestion.models.processed_post import ProcessedPost
 from app.data_ingestion.utils.app_constants import EXCLUDED_ENTITIES_SPACY
 from app.data_ingestion.utils.app_logger import app_logger as log
+from app.data_ingestion.processor.transcript_processor import TranscriptProcessor
 
 
 class TextProcessor:
@@ -16,6 +16,7 @@ class TextProcessor:
         self.nlp = spacy.load('en_core_web_sm')
         log.info('Spacy model loaded.')
         self.excluded_entities = EXCLUDED_ENTITIES_SPACY
+        self.transcript_processor = TranscriptProcessor()
 
     def get_entities_count(self, spacy_document) -> Counter:
         """
@@ -31,20 +32,6 @@ class TextProcessor:
         processed_document = self.nlp(text)
         return {"entities": self.get_entities_count(processed_document)}
 
-    def process_message(self, post: Post) -> ProcessedPost:
-        log.info(f"Processing Post: {post}")
-        return ProcessedPost(
-            **{
-                **post.dict(),
-                **self.get_entities(post.content)
-            }
-        )
-
-    def process_transcript(self, transcript: str) -> CallTranscript:
-        log.info(f"Processing Transcript: {transcript}")
-
-        return ProcessedPost(
-            **{
-                **self.get_entities(transcript)
-            }
-        )
+    def process_message(self, transcript: str) -> CallTranscript:
+        log.info(f"Processing transcript")
+        return self.transcript_processor.process(transcript)

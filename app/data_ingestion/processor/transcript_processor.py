@@ -5,11 +5,12 @@ from app.data_ingestion.models.question_answer_content import QuestionAnswerCont
 
 
 class TranscriptProcessor:
-    def __init__(self, transcript: str):
-        self.transcript = transcript
 
-    def process(self) -> CallTranscript:
-        root = ET.fromstring(self.transcript)
+    def process(self, transcript: str) -> CallTranscript:
+
+        # Replace the default namespace URI with an empty string
+        transcript = transcript.replace('xmlns="http://www.factset.com/callstreet/xmllayout/v0.1"', '')
+        root = ET.fromstring(transcript)
 
         # Extracting the metadata
         transcript_id = root.attrib['id']
