@@ -8,7 +8,7 @@ class TranscriptProcessor:
     def __init__(self, transcript: str):
         self.transcript = transcript
 
-    def process(self):
+    def process(self) -> CallTranscript:
         root = ET.fromstring(self.transcript)
 
         # Extracting the metadata
@@ -68,3 +68,5 @@ class TranscriptProcessor:
             question_and_answer_content=question_and_answer_content,
             participant_profiles=participant_profiles
         )
+
+        return call_transcript
