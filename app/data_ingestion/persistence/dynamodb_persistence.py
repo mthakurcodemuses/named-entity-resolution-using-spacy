@@ -10,7 +10,7 @@ class CallTranscriptsDynamoDBPersistence:
     def __init__(self):
         session = boto3.Session()
         dynamodb = session.resource("dynamodb")
-        self.table = dynamodb.Table("call_transcript")
+        self.table = dynamodb.Table("call_transcripts")
 
     def persist(self, call_transcripts: [CallTranscript]):
         try:

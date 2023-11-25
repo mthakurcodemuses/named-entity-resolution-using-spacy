@@ -20,7 +20,7 @@ spec:
         app.kubernetes.io/component: service
         app.kubernetes.io/created-by: cli
     spec:
-      serviceAccountName: ingest-backend-sa
+      serviceAccountName: nlp-app-pod-sa
       containers:
         - name: ingest-backend
           image: 585990787062.dkr.ecr.us-east-1.amazonaws.com/ner-using-spacy-backend:latest
